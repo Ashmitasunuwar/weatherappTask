@@ -1,0 +1,93 @@
+.outerdiv {
+    height: 480px;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(185, 221, 233, 0.5);
+    padding-top: 70px;
+    z-index: 2;
+
+}
+
+.firstrow {
+    display: flex;
+    justify-content: center;
+
+}
+
+.inputfield {
+    width: 55%;
+    border: none;
+    outline: none;
+    color: grey;
+    background-color: white;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+
+
+.btnOne {
+    width: 10%;
+    border: none;
+    background-color: darkslategrey;
+    color: grey;
+    background-color: white;
+    height: 40px;
+}
+
+.weatherIcon {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+}
+
+.information {
+    color: #70757a;
+    display: flex;
+    justify-content: left;
+}
+
+
+.streetIcon {
+    margin-right: 10px;
+    color: rgb(54, 54, 105);
+}
+
+.weatherToday {
+    position: absolute;
+    top: 35px;
+    right: 80px;
+    color: #3b5cbfd6;
+    font-size: x-large;
+}
+
+.Titletag {
+    text-align: center;
+    margin: 25px;
+    color: #7d8dbde0;
+}
+
+.forecastDays {
+    margin-top: 10px;
+    width: 100%;
+    height: 40vh;
+    opacity: 0.6;
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+.forecast-item {
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: rgba(185, 221, 233, 0.5);
+}
+
+.parentCon {
+    margin-top: 50px;
+}
